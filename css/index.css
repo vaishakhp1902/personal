@@ -5,17 +5,10 @@
     MIT Licensed - see http://opensource.org/licenses/MIT for details.
     Anyone may freely use this code. Just don't sue me if it breaks stuff.
     Created: September 3rd, 2015.
-    Last Updated: Feb 18th, 2021.
+    Last Updated: Feb 6th, 2018.
 
     This file contains CSS classes / IDs used to override the Creative Bootstrap Theme
 */
-
-/* For the new header, all text shall be black around the intro section 
-	 Will hopefully be easier to read.
-*/
-.text-black {
-	color: black;
-}
 
 .text-small {
   font-size: 100%;
@@ -24,8 +17,6 @@
 .text-italic {
   font-style: italic;
 }
-
-/* Changing the Navbar text color to be darker - easier to read on a light background header image. */
 
 /* Making the "text-muted" class smaller, seems a bit too large. */
 .text-muted {
@@ -58,7 +49,7 @@
   color: blue;
   border-bottom: 1px solid currentColor;
 }
-  /* 6/15/2018: Renamed because Bootstrap's CSS ALSO has a text-white class,
+  /* 6/15/2018: Renamed because Creative Bootstrap ALSO has a text-white class,
                 and my own text-white class was adding a border on the H2 'Education'
                 header text. */
 .text-white-link {
@@ -158,7 +149,7 @@ a.text-white-link:active {
 .href-black {
 	color: #000000;
 }
-hr.black {
+.hr-black {
 	border-color: #000000;
 	color: #000000;
 }
